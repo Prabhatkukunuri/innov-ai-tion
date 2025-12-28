@@ -7,14 +7,25 @@ from typing import Dict, Optional, List, Any
 from tavily import TavilyClient
 import google.generativeai as genai
 
+from dotenv import load_dotenv
 
+# Load the .env file
+load_dotenv()
+
+g_api_key = os.getenv("GEMINI_API_KEY1")
+if g_api_key is None:
+    raise ValueError("GEMINI_API_KEY not found in .env file")
+    
+t_api_key = os.getenv("TAVILY_API_KEY")
+if t_api_key is None:
+    raise ValueError("TAVILY_API_KEY not found in .env file")
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
 class Config:
     """Configuration constants"""
-    TAVILY_API_KEY = "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"
-    GEMINI_API_KEY = "AIzaSyBzCn9rgf6Ieo_YXBeMcFWqZPKD8BaIYm4"
+    TAVILY_API_KEY = t_api_key
+    GEMINI_API_KEY = g_api_key
     MODEL_NAME = "gemini-2.5-flash"
     DEFAULT_DB_NAME = "fitness.db"
     WORKOUT_DURATION_MINUTES = 60
