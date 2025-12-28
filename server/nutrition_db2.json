@@ -1,0 +1,92 @@
+{
+  "raw_chicken": {
+    "calories_per_gram": 1.65,
+    "protein_g_per_gram": 0.31,
+    "fat_g_per_gram": 0.036,
+    "carbs_g_per_gram": 0.0
+  },
+  "egg_whole": {
+    "calories_per_gram": 1.55,
+    "protein_g_per_gram": 0.13,
+    "fat_g_per_gram": 0.11,
+    "carbs_g_per_gram": 0.01
+  },
+  "rice_raw": {
+    "calories_per_gram": 1.30,
+    "protein_g_per_gram": 0.028,
+    "fat_g_per_gram": 0.002,
+    "carbs_g_per_gram": 0.28
+  },
+  "onion": {
+    "calories_per_gram": 0.40,
+    "protein_g_per_gram": 0.011,
+    "fat_g_per_gram": 0.001,
+    "carbs_g_per_gram": 0.09
+  },
+  "tomato": {
+    "calories_per_gram": 0.18,
+    "protein_g_per_gram": 0.009,
+    "fat_g_per_gram": 0.002,
+    "carbs_g_per_gram": 0.039
+  },
+  "potato": {
+    "calories_per_gram": 0.77,
+    "protein_g_per_gram": 0.020,
+    "fat_g_per_gram": 0.001,
+    "carbs_g_per_gram": 0.17
+  },
+  "carrot": {
+    "calories_per_gram": 0.41,
+    "protein_g_per_gram": 0.009,
+    "fat_g_per_gram": 0.002,
+    "carbs_g_per_gram": 0.10
+  },
+  "banana": {
+    "calories_per_gram": 0.89,
+    "protein_g_per_gram": 0.011,
+    "fat_g_per_gram": 0.003,
+    "carbs_g_per_gram": 0.23
+  },
+  "apple": {
+    "calories_per_gram": 0.52,
+    "protein_g_per_gram": 0.003,
+    "fat_g_per_gram": 0.002,
+    "carbs_g_per_gram": 0.14
+  },
+  "milk_full_fat": {
+    "calories_per_gram": 0.64,
+    "protein_g_per_gram": 0.033,
+    "fat_g_per_gram": 0.036,
+    "carbs_g_per_gram": 0.05
+  },
+  "paneer": {
+    "calories_per_gram": 2.65,
+    "protein_g_per_gram": 0.18,
+    "fat_g_per_gram": 0.20,
+    "carbs_g_per_gram": 0.02
+  },
+  "oil_generic": {
+    "calories_per_gram": 9.00,
+    "protein_g_per_gram": 0.0,
+    "fat_g_per_gram": 1.0,
+    "carbs_g_per_gram": 0.0
+  },
+  "butter": {
+    "calories_per_gram": 7.17,
+    "protein_g_per_gram": 0.005,
+    "fat_g_per_gram": 0.81,
+    "carbs_g_per_gram": 0.01
+  },
+  "bread_white": {
+    "calories_per_gram": 2.65,
+    "protein_g_per_gram": 0.09,
+    "fat_g_per_gram": 0.03,
+    "carbs_g_per_gram": 0.49
+  },
+  "raw_fish": {
+    "calories_per_gram": 1.20,
+    "protein_g_per_gram": 0.22,
+    "fat_g_per_gram": 0.025,
+    "carbs_g_per_gram": 0.0
+  }
+}
