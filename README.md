@@ -26,7 +26,6 @@ This system combines three major components:
 - **Dietary Customization**: Supports various diets, allergies, and cooking skill levels
 
 ### Progress Tracking
-- **Computer Vision Food Logging**: Identify ingredients from images
 - **Workout Performance Tracking**: Track sets, reps, cardio distance, and time
 - **Intelligent Evaluation**: Analyzes calorie deficits, macro adherence, and training completion
 - **Automated Adjustments**: Generates adjustment reports for next workout
@@ -130,6 +129,8 @@ pip install google-generativeai tavily-python python-dotenv pillow requests
 Create a `.env` file:
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY2=your_gemini_api_key_here
+GEMINI_API_KEY3=your_gemini_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 ```
 
@@ -140,14 +141,18 @@ python tracking_system.py  # Creates fitness.db automatically
 ## Project Structure
 
 ```
-fitness-planning-system/
-├── workout_agent.py           # Two-LLM workout generation system
-├── meal_planning.py           # Meal planning and recipe generation
-├── tracking_system.py         # Progress tracking and evaluation
+fitness-planning-system
+├── workout_llm.py           # Two-LLM workout generation system
+├── cooking_LLM.py           # Meal planning and recipe generation
+├── tracking_llm.py         # Progress tracking and evaluation
 ├── fitness.db                 # SQLite database
 ├── nutrition_db.json          # Cached nutrition data
+├── nutrition_db2.json          # Cached nutrition data
 ├── .env                       # Environment variables
+├── requirements.txt           # Environment variables
 └── README.md                  # This file
+
+
 ```
 
 ## Key Features Explained
