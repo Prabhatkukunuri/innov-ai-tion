@@ -9,6 +9,18 @@ This system combines three major components:
 2. **Meal Plan Generation** - Semantic meal planning with real-time nutritional data
 3. **Progress Tracking & Adjustment** - Intelligent tracking system that evaluates performance and suggests adjustments
 
+## Architecture Diagram
+
+### WorkoutLLM
+![](https://github.com/Prabhatkukunuri/innov-ai-tion/blob/main/server/workout_llm_architechture.png)
+
+### CookingLLM
+![](https://github.com/Prabhatkukunuri/innov-ai-tion/blob/main/server/cooking_llm.png)
+
+### TrackingLLM
+![](https://github.com/Prabhatkukunuri/innov-ai-tion/blob/main/server/tracking_llm.png)
+
+
 ## Key Features
 
 ### Intelligent Workout Planning
