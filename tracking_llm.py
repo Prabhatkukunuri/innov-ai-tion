@@ -1,6 +1,5 @@
 import os
 from dotenv import load_dotenv
-from PIL import Image
 import google.generativeai as genai
 
 
@@ -18,26 +17,6 @@ genai.configure(api_key=api_key)
 # Load Gemini model
 model = genai.GenerativeModel("gemini-2.5-flash")
 
-# Load image
-image = Image.open("FoodItem.png").convert("RGB")
-
-# Prompt
-prompt = """
-Identify all RAW food ingredients visible in this image.
-Ignore cooked dishes, utensils, and packaging.
-Return ONLY a JSON array of ingredient names.
-"""
-
-# Generate response
-# response = model.generate_content([prompt, image])
-
-# print(response.text)
-def get_weights(ingredients):
-    weights = {}
-    for item in ingredients:
-        w = float(input(f"Enter weight (grams) for {item}: "))
-        weights[item] = w
-    return weights
 
 def parse_ingredients(response_text):
     import json, re
