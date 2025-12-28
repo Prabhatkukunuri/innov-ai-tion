@@ -13,7 +13,7 @@ load_dotenv()
 import google.generativeai as genai
 
 # Configure Gemini
-genai.configure(api_key="AIzaSyAN0KhL7MQQnT0nUZ2WBAlF_8syzqII1UQ")
+genai.configure(api_key="GEMINI_API_KEY2")
 
 REQUIRED_FIELDS = [
     "date",
