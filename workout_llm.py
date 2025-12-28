@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 # Load the .env file
 load_dotenv()
 
-g_api_key = os.getenv("GEMINI_API_KEY1")
+g_api_key = os.getenv("GEMINI_API_KEY")
 if g_api_key is None:
     raise ValueError("GEMINI_API_KEY not found in .env file")
     
