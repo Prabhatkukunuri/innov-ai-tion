@@ -32,17 +32,17 @@ const MOCK_WORKOUT_RESPONSE = {
         {
             name: 'Dumbbell Bench Press',
             sets: 3,
-            reps: '10-15',
+            reps: '10',
             time_minutes: 8,
         },
         { name: 'Lat Pulldown', sets: 3, reps: '10-15', time_minutes: 8 },
         {
             name: 'Dumbbell Shoulder Press',
             sets: 2,
-            reps: '10-15',
+            reps: '15',
             time_minutes: 6,
         },
-        { name: 'Plank', sets: 2, reps: '30-45 sec hold', time_minutes: 3 },
+        { name: 'Plank', sets: 2, reps: '15', time_minutes: 3 },
     ],
     time_required_minutes: 63,
     diet_rationale:
