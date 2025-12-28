@@ -142,14 +142,16 @@ python tracking_system.py  # Creates fitness.db automatically
 
 ```
 fitness-planning-system
-├── workout_llm.py           # Two-LLM workout generation system
-├── cooking_LLM.py           # Meal planning and recipe generation
-├── tracking_llm.py         # Progress tracking and evaluation
-├── fitness.db                 # SQLite database
-├── nutrition_db.json          # Cached nutrition data
-├── nutrition_db2.json          # Cached nutrition data
-├── .env                       # Environment variables
-├── requirements.txt           # Environment variables
+└──client/
+└──server/
+    ├── workout_llm.py           # Two-LLM workout generation system
+    ├── cooking_LLM.py           # Meal planning and recipe generation
+    ├── tracking_llm.py         # Progress tracking and evaluation
+    ├── fitness.db                 # SQLite database
+    ├── nutrition_db.json          # Cached nutrition data
+    ├── nutrition_db2.json          # Cached nutrition data
+    ├── .env                       # Environment variables
+    ├── requirements.txt           # Environment variables
 └── README.md                  # This file
 
 
