@@ -11,9 +11,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import google.generativeai as genai
-
+api_key = os.getenv("GEMINI_API_KEY2")
+if api_key is None:
+    raise ValueError("GEMINI_API_KEY not found in .env file")
 # Configure Gemini
-genai.configure(api_key="GEMINI_API_KEY2")
+genai.configure(api_key=api_key)
 
 REQUIRED_FIELDS = [
     "date",
