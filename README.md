@@ -171,19 +171,13 @@ fitness-planning-system
 - Progressive overload principles
 - Training split recommendations
 
-### 3. **Computer Vision Food Logging**
-- Upload food images
-- AI identifies ingredients
-- Fetches nutritional data from Open Food Facts
-- Calculates total macros
-
-### 4. **Intelligent Adjustment System**
+### 3. **Intelligent Adjustment System**
 - Analyzes workout completion rates
 - Evaluates nutritional adherence
 - Generates structured adjustment reports
 - Provides specific, actionable recommendations
 
-### 5. **Semantic Meal Planning**
+### 4. **Semantic Meal Planning**
 - Classifies workout characteristics
 - Determines optimal meal structure
 - Generates recipes matching macro targets
